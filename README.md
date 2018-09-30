@@ -16,6 +16,14 @@
 + Tensorflow > 1.4.1
 + MTCNN 
 
+## Installation
+
+* Clone this repo
+
+```bash
+git clone https://github.com/mikeshihyaolin/face_blurring.git
+```
+
 ## Quick Start
 ```
 python face_blurring.py --source_video ./vido.mp4 --output_video ./video_o.mp4 

@@ -38,7 +38,7 @@ def video_to_images(video, path_output_dir):
 	while vidcap.isOpened():
 	    success, image = vidcap.read()
 	    if success:
-	        cv2.imwrite(os.path.join(path_output_dir, '%04d.jpg') % count, image)
+	        cv2.imwrite(os.path.join(path_output_dir, '%04d.png') % count, image)
 	        count += 1
 	    else:
 	        break
@@ -54,8 +54,9 @@ if __name__=="__main__":
 	args = parser.parse_args()
 
 	video_to_images(args.source_video, img_path)
+	print(args.source_video)
 
-	source_path = sorted(glob.glob("./img/*.jpg"))
+	source_path = sorted(glob.glob("./img/*.png"))
 	source_path = source_path[1:len(source_path)]
 	tmp = cv2.imread(source_path[0])
 	height,width,layers = tmp.shape
@@ -67,7 +68,7 @@ if __name__=="__main__":
 
 	for i, fi in enumerate(source_path):
 
-		# if i > 50:
+		# if i > 10:
 		# 	break
 
 		print(fi)
