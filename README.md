@@ -22,4 +22,5 @@ python face_blurring.py --source_video ./vido.mp4 --output_video ./video_o.mp4
 ```
 
 ## Visualization results
-![](fig/blur2.jpg)
+![](figs/blur1.jpg)
+![](figs/blur2.jpg)
