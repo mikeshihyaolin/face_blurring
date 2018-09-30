@@ -2,7 +2,7 @@
 **Face detection + Face blurring**
 + Detect all the face from the input video
 + Blur all the detected faces
-+ Save the blurred face video
++ Save the blurred-face video
 
 **Code Author: Shih-Yao (Mike) Lin**
 
@@ -21,3 +21,5 @@
 python face_blurring.py --source_video ./vido.mp4 --output_video ./video_o.mp4 
 ```
 
+## Visualization results
+![](fig/blur2.jpg)
