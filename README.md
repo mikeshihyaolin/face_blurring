@@ -12,8 +12,8 @@
 + GTX-1080
 
 ## Dependencies
-+ OpenCV > 3.2.0.8
-+ Tensorflow > 1.4.1
++ OpenCV >= 3.2.0.8
++ Tensorflow >= 1.4.1
 + MTCNN 
 
 ## Installation
@@ -26,7 +26,7 @@ git clone https://github.com/mikeshihyaolin/face_blurring.git
 
 ## Quick Start
 ```
-python face_blurring.py --source_video ./vido.mp4 --output_video ./video_o.mp4 
+python face_blurring.py --source_video ./video.mp4 --output_video ./video_o.mp4 
 ```
 
 ## Visualization results
