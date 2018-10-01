@@ -36,6 +36,6 @@ python face_blurring.py --source_video ./example/video.mp4 --output_video ./vide
 ## Visualization results
 ![](figs/blur1.png)
 ![](figs/blur2.jpg)
-![](figs/blur3.jpg)
+![](figs/blur3.png)
 
 The face detection process is heavily borrowed from a MTCNN implementation ([Link](https://github.com/ipazc/mtcnn.git))
