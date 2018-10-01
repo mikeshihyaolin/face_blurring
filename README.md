@@ -28,7 +28,7 @@ git clone https://github.com/mikeshihyaolin/face_blurring.git
 ```
 python face_blurring.py --source_video [input video path & name] --output_video [output video path & name]]
 ```
-e.g.,
+For example,
 ```
 python face_blurring.py --source_video ./example/video.mp4 --output_video ./video_o.mp4 
 ```
