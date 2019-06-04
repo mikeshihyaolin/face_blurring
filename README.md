@@ -6,11 +6,6 @@
 
 **Code Author: Shih-Yao (Mike) Lin**
 
-
-## Platform
-+ Ubuntu 16.04
-+ GTX-1080
-
 ## Dependencies
 + OpenCV >= 3.2.0.8
 + Tensorflow >= 1.4.1
