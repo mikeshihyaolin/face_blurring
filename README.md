@@ -23,6 +23,39 @@
 ```bash
 git clone https://github.com/mikeshihyaolin/face_blurring.git
 ```
+The directory tree should look like this:
+```
+${ROOT}
+├── README.md
+├── face_blurring.py
+├── figs
+│   ├── .DS_Store
+│   ├── .blur1.png.icloud
+│   ├── blur2.jpg
+│   └── blur3.jpg
+└── mtcnn
+    ├── .DS_Store
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── layer_factory.cpython-36.pyc
+    │   ├── mtcnn.cpython-36.pyc
+    │   └── network.cpython-36.pyc
+    ├── data
+    │   └── .mtcnn_weights.npy.icloud
+    ├── exceptions
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       └── __init__.cpython-36.pyc
+    ├── layer_factory.py
+    ├── mtcnn.py
+    └── network.py
+```
+
+* Install dependencies
+```
+pip3 install -r ./requirements.txt
+```
 
 ## Quick Start
 ```
