@@ -1,8 +1,7 @@
 # Face Blurring
 **Face detection + Face blurring**
 + Detect all the faces in the input video
-+ Blur all the detected faces
-+ Save the blurred-face video
++ Blur all the detected faces and save them 
 
 **Code Author: Shih-Yao (Mike) Lin**
 
@@ -54,11 +53,11 @@ pip3 install -r ./requirements.txt
 
 ## Quick Start
 ```
-python face_blurring.py --source_video [input video path & name] --output_video [output video path & name]]
+python face_blurring.py --source_video [input video] --output_blur_img_folder [output folder]
 ```
 For example,
 ```
-python face_blurring.py --source_video ./example/video.mp4 --output_video ./video_o.mp4 
+python face_blurring.py --source_video ./example/video.mp4 --output_video ./blur
 ```
 
 ## Visualization results
