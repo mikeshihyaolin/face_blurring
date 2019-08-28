@@ -49,8 +49,8 @@ def video_to_images(video, path_output_dir):
 if __name__=="__main__":
 
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--source_video", type=str)
-	parser.add_argument("--output_video", type=str)
+	parser.add_argument("--source_video", "-i", type=str)
+	parser.add_argument("--output_video", "-o",type=str)
 	args = parser.parse_args()
 
 	video_to_images(args.source_video, img_path)
