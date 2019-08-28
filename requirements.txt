@@ -1,9 +1,8 @@
 mtcnn
-install tensorflow==1.12.1 
-opencv-contrib-python==4.1.0
+tensorflow 
+opencv-python
 face-recognition==1.2.3
 face-recognition-models==0.3.0
 glob2==0.6
-tensorflow
 numpy==1.14.3
 
