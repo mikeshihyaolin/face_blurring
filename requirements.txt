@@ -4,5 +4,5 @@ opencv-python
 face-recognition==1.2.3
 face-recognition-models==0.3.0
 glob2==0.6
-numpy==1.14.3
+numpy==1.22.0
 
